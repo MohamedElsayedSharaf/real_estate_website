@@ -1,0 +1,40 @@
+.awards {
+    background-color: #122947;
+    color: #fff;
+    text-align: center;
+}
+.awards .heading {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.awards .heading p {
+    color: #27ae60;
+    font-size: 20px;
+}
+.awards .heading h1 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 400;
+}
+.grid4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+.awards .icon {
+    background: hsla(0,0%,100%,.1);
+    border-radius: 4% 50%;
+    color: #fff;
+    font-size: 35px;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 50px;
+    margin: auto;
+    width: 100px;
+}
+.awards .box p {
+    color: gray;
+}
+.awards .box h1{
+    font-size: 50px;
+}

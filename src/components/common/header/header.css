@@ -1,0 +1,90 @@
+header {
+    background-color: #fff;
+    height: 10vh;
+    box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+    padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 99999;
+}
+.scroller {
+    background-color: #27ae60;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    height: 5px;
+    width: 0;
+}
+header img {
+    width: 170px;
+}
+header a {
+    margin-left: 30px;
+    transition: .3s;
+    font-weight: 500;
+}
+header a:hover {
+    color: #27ae60
+}
+header button {
+    margin-left: 30px;
+}
+header span {
+    color: #fff;
+    background-color: #27ae60;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    margin-right: 4px;
+    padding: 0 6px;
+}
+header h4 {
+    font-weight: 500;
+}
+header .toggle {
+    display: none;
+}
+@media screen and (max-width: 768px) {
+    header {
+        padding: 0;
+    }
+    header img {
+        margin-top: 30px;
+    }
+    header .button {
+        display: none;
+    }
+    header .nav .flex {
+        display: none;
+    }
+    header .toggle {
+        display: block;
+        margin-top: 20px;
+    }
+    header .small {
+        position: absolute;
+        top: 10vh;
+        left: 0;
+        width: 100%;
+        background: #27ae60;
+        padding: 20px;
+    }
+    header li a {
+        color: #fff;
+        display: inline-block;
+        margin-bottom: 20px;
+    }
+    header li a:hover {
+        color: #fff;
+    }
+    header .res {
+        border-radius: 5px;
+        padding: 10px 10px;
+        background: #27ae60;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}

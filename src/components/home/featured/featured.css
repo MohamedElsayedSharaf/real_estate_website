@@ -1,0 +1,37 @@
+.featured .background {
+    background: #f7f9fc;
+    padding: 80px 0;
+    position: relative;
+}
+.featured .box {
+    box-shadow: 0 0 20px 0 rgba(112 121 138 /18%);
+    padding: 30px;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+}
+.featured img {
+    width: 65px;
+    height: 65px;
+    margin: auto;
+}
+.featured .mtop {
+    margin-top: 50px;
+}
+.featured .grid {
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(5, 1fr);
+}
+h4 {
+    font-weight: 500;
+    margin-top: 10px;
+}
+@media screen and (max-width: 800px) {
+    .featured {
+        margin-top: 300px;
+    }
+    .featured .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+} 
